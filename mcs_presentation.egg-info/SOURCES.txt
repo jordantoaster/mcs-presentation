@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+docker/startup.py
+mcs_presentation.egg-info/PKG-INFO
+mcs_presentation.egg-info/SOURCES.txt
+mcs_presentation.egg-info/dependency_links.txt
+mcs_presentation.egg-info/requires.txt
+mcs_presentation.egg-info/top_level.txt

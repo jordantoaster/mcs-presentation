@@ -1,0 +1,15 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama_mcs
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
+
+  startup:
+    build: .
+    container_name: ollama_startup
+    depends_on:
+      - ollama
+    environment:
+      - PYTHONUNBUFFERED=1
